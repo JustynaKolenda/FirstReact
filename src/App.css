@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.allBox {
+  position: absolute;
+  width: 100%;
+}
+.card-deck {
+  width: 1160px;
+  height: 880px;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  float: left;
+  margin-top: 20px;
+}
+.upBox {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+.boxFirst {
+  float: left;
+  position: relative;
+  width: 290px;
+}
+.boxFirst__img--women{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.boxFirst__row {
+  position: absolute;
+  z-index: 9999;
+  transform: translateY(-50%)translateX(-50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+.boxSecond {
+  float: left;
+  width: 290px;
+  position: relative;
+  background-color: lightgray;
+  height: 200px;
+}
+.boxThird {
+  float: left;
+  width: 290px;
+  height: 290px;
+  position: relative;
+}
+
+.boxSecond__card--twitt {
+  width: 30px;
+  position: relative;
+}
+
+.boxThird__card--avatar{
+  position: relative;
+}
+
+.pictures {
+    position: relative;
+}
+.boxSecond__card--txt{
+    font-style: italic;
+    width: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+.boxThird__card--txt {
+  margin: 0;
+  font-style: italic;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  padding: 0;
+}
+.midleBoxSec {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  float: left;
+}
+.boxBigR {
+  float: right;
+  position: relative;
+  width: 290px;
+}
+.boxBigR__img--women{
+  position: relative;
+  width: 100%;
+  height: 590px;
+}
+.boxBigR__row {
+  position: absolute;
+  z-index: 9999;
+  transform: translateY(-50%)translateX(-50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+.therdBox {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+}
+.fourthBox {
+  width: 100%;
+  overflow: hidden;
+  height: 190px;
+  float: left;
+  position: relative;
+  bottom: 22%;
+}
