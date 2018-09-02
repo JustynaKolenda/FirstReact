@@ -1,26 +1,76 @@
 .App {
   text-align: center;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+/*header*/
+.heder {
+  width: 1160px;
+  height: 78px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 1px solid #c1c0c0;
+}
+.heder_logo {
+  position: relative;
+  float: left;
+  margin-top: 35px;
+  width: 42px;
+  height: 42px;
+  background-color: #000000;
+  text-align: center;
+}
+.heder_logo--txt {
+  top: 50%;
+  color: #ffffff;
+  position: relative;
+  transform: translateY(-50%);
+}
+.heder_menuLeft {
+  width: 450px;
+  position: relative;
+  float: left;
+  top: 60%;
+}
+.heder_menuLeft--category {
+  float: left;
+  position: relative;
+  margin-left: 40px;
+  font-size: 15px;
+  font-family: initial;
+  color: #000000;
+  text-decoration: none;
+}
+.heder_menuRight {
+  width: 290px;
+  top: 60%;
+  float: right;
+  position: relative;
+  font-size: 15px;
+  font-family: initial;
+  
+}
+.heder_menuRight--category {
+  float: left;
+  margin-left: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+.heder_menuRight--search {
+  width: 42px;
+  height: 42px;
+  float: right;
+  position: relative;
+}
+.heder_menuRight--img {
+  width: 20px;
+  height: 17px;
+  float: right;
+  border: 1px #000000;
+  border-style: solid;
+  padding: 5px;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+/*midle*/
 
 .allBox {
   position: absolute;
@@ -31,32 +81,19 @@
   height: 880px;
   left: 50%;
   position: relative;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   float: left;
+  display: flex;
   margin-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .upBox {
   position: relative;
   height: 200px;
-  overflow: hidden;
-}
-.boxFirst {
-  float: left;
-  position: relative;
-  width: 290px;
-}
-.boxFirst__img--women{
-  position: relative;
-  width: 100%;
-  height: 600px;
-}
-.boxFirst__row {
-  position: absolute;
-  z-index: 9999;
-  transform: translateY(-50%)translateX(-50%);
-  top: 50%;
-  left: 50%;
-  color: white;
+ 
 }
 .boxSecond {
   float: left;
@@ -64,12 +101,8 @@
   position: relative;
   background-color: lightgray;
   height: 200px;
-}
-.boxThird {
-  float: left;
-  width: 290px;
-  height: 290px;
-  position: relative;
+  overflow: hidden;
+  margin-bottom: 1px;
 }
 
 .boxSecond__card--twitt {
@@ -79,6 +112,7 @@
 
 .boxThird__card--avatar{
   position: relative;
+  height: 200px;
 }
 
 .pictures {
@@ -104,35 +138,4 @@
   height: 200px;
   overflow: hidden;
   float: left;
-}
-.boxBigR {
-  float: right;
-  position: relative;
-  width: 290px;
-}
-.boxBigR__img--women{
-  position: relative;
-  width: 100%;
-  height: 590px;
-}
-.boxBigR__row {
-  position: absolute;
-  z-index: 9999;
-  transform: translateY(-50%)translateX(-50%);
-  top: 50%;
-  left: 50%;
-  color: white;
-}
-.therdBox {
-  float: left;
-  overflow: hidden;
-  height: 200px;
-}
-.fourthBox {
-  width: 100%;
-  overflow: hidden;
-  height: 190px;
-  float: left;
-  position: relative;
-  bottom: 22%;
 }
